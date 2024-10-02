@@ -51,7 +51,7 @@ std::string removeQuotes(const std::string &input) {
 int main() {
 
     std::string input;
-    std::cout << "Enter a string with unique characters (enclosed in double quotes): ";
+    std::cout << "Input (enclosed in double quotes): ";
     std::getline(std::cin, input);
 
     // Remove quotes from the input
